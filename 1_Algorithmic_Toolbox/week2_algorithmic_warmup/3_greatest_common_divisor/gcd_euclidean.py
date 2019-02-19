@@ -1,3 +1,4 @@
+# Uses python3
 def gcd_euclid(a, b):
     """Lemma:
         Let a' be the remainder when a is divided by d, then:
