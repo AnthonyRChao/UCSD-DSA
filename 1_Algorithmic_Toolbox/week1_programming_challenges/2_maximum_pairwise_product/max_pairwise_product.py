@@ -13,7 +13,7 @@ def max_pairwise_product(numbers):
         if second > max2 and index != max_index_1:
             max2 = second
 
-    return max1 * max2 
+    return max1 * max2
 
 
 if __name__ == '__main__':
