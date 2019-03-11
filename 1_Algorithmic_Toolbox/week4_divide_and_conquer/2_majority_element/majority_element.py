@@ -1,5 +1,6 @@
 # Uses python3
 import sys
+from collections import Counter
 
 def get_majority_element(a, left, right):
     if left == right:
@@ -7,6 +8,8 @@ def get_majority_element(a, left, right):
     if left + 1 == right:
         return a[left]
     #write your code here
+    if Counter(a).most_common()[0][1] > len(a)/2:
+        return 1
     return -1
 
 if __name__ == '__main__':
