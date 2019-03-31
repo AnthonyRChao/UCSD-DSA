@@ -9,7 +9,7 @@ def find_mismatch(text):
     stack = []
     for i, char in enumerate(text):
         val = Bracket(char, i + 1)
-        if val[0] in "([{":
+        if val[0] in '([{':
             stack.append(val)
         else:
             if val[0] in '}])':
