@@ -13,11 +13,14 @@ def find_mismatch(text):
             stack.append(val)
         else:
             if val[0] in '}])':
-                top = stack.pop()
-                if ((top[0] == '[' and val[0] != ']') or
-                        (top[0] == '(' and val[0] != ')') or
-                        (top[0] == '{' and val[0] != '}')):
-                       return val[1]
+                if len(stack) == 0:
+                    return val[1]
+                else:
+                    top = stack.pop()
+                    if ((top[0] == '[' and val[0] != ']') or
+                            (top[0] == '(' and val[0] != ')') or
+                            (top[0] == '{' and val[0] != '}')):
+                           return val[1]
     return 'Success' if len(stack) == 0 else stack[-1][1]
 
 
