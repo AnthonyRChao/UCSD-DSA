@@ -1,4 +1,4 @@
-# Coursera: UCSD Data Structures and Algorithms Specialization
+## Coursera: UCSD Data Structures and Algorithms Specialization
 
 Start: 2/12/19
 End: TBD
@@ -10,14 +10,14 @@ This repository contains my solutions for Coursera's UCSD Data Structures and Al
 
 **Note**: Solutions are for reference only.
 
-## 1. Algorithmic Toolbox
+### 1. Algorithmic Toolbox
 
-## 2. Data Structures
+### 2. Data Structures
 
-## 3. Algorithms on Graphs
+### 3. Algorithms on Graphs
 
-## 4. Algorithms on Strings
+### 4. Algorithms on Strings
 
-## 5. Advanced Algorithms and Complexity
+### 5. Advanced Algorithms and Complexity
 
-## 6. Genome Assembly Programming Challenge
+### 6. Genome Assembly Programming Challenge
