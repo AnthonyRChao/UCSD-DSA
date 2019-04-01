@@ -1,14 +1,14 @@
-## Data Structures and Algorithms
-- Learn algorithmic techniques to solve computational problems and implement 100+ algorithmic coding problems.
+# Coursera: UCSD Data Structures and Algorithms Specialization
 
-## Source
-- https://www.coursera.org/specializations/data-structures-algorithms
+Start: 2/12/19
+End: TBD
 
-## Started
-- 2/12/19
+1/6 Courses Completed
 
-## Completed
-- TBD
+Learn algorithmic techniques to solve computational problems and implement 100+ algorithmic coding problems.
+This repository contains my solutions for Coursera's UCSD Data Structures and Algorithms Specialization. Answers are written in Python3. Additional documentation can be found inside relevant course week directories.
+
+**Note**: Solutions are for reference only.
 
 ## 1. Algorithmic Toolbox
 
